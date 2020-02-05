@@ -45,10 +45,14 @@ for i in range(count):
 ### 주사위를 6번 던져 한 번이라도 주사위 K면이 나올 확률
 
 ### 1이 단 한 번도 나오지 않은 시행 횟수
+```Python
 nonK = len(save[save.isin([K]).sum(axis=1)==0])
-
+```
 ### 확률 계산 결과
+```Python
 print(1 - (nonK / count))
-
+```
 ### 시행 결과 테이블
+```Python
 print(save)
+```
