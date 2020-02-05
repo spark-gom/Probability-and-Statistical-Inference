@@ -23,7 +23,6 @@ K = 1
 count = 100
 
 for i in range(count):
-
        for j in range(6):
         try:
             n = K
@@ -38,18 +37,18 @@ for i in range(count):
 
         except Exception as ex:
             print("에러가 발생했습니다.", ex)
+"'''"
 
 
+주사위를 6번 던져 한 번이라도 주사위 K면이 나올 확률
 
-# 주사위를 6번 던져 한 번이라도 주사위 K면이 나올 확률
 
-
-# 1이 단 한 번도 나오지 않은 시행 횟수
+1이 단 한 번도 나오지 않은 시행 횟수
 nonK = len(save[save.isin([K]).sum(axis=1)==0])
 
-# 확률 계산 결과
+확률 계산 결과
 print(1 - (nonK / count))
 
-# 시행 결과 테이블
+시행 결과 테이블
 print(save)
 "'''"
