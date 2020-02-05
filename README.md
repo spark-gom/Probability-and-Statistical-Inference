@@ -2,9 +2,8 @@
 # Probability and Statistical Inference
 
 
-Chapter 1. Probability
-Chapter 1.1 Properties of Probability
-------------
+## Chapter 1. Probability
+## Chapter 1.1 Properties of Probability
 
 
 "'''"
@@ -14,11 +13,11 @@ import random
 
 save = pd.DataFrame()
 
-# i = 시행횟수
-# j = 시행 내 반복횟수
+ i = 시행횟수
+ j = 시행 내 반복횟수
 
-# n = 주사위 면 K
-# count = 시행 횟수 변수
+ n = 주사위 면 K
+ count = 시행 횟수 변수
 
 K = 1
 count = 100
