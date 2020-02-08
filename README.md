@@ -23,7 +23,7 @@ save = pd.DataFrame()
 
 
 K = 1
-count = 100
+count = 10000
 
 for i in range(count):
        for j in range(6):
