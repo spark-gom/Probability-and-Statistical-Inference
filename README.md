@@ -39,7 +39,7 @@ for i in range(count):
                 save.loc[i,j] = random.choice(k)
 
         except Exception as ex:
-            print("에러가 발생했습니다.", ex)
+            print("에러가 발생했습니다. n은 1~6 사이값에서 입력하세요.", ex)
 ```
 
 ### 주사위를 6번 던져 한 번이라도 주사위 K면이 나올 확률
