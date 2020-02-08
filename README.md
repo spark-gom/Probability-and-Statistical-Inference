@@ -32,7 +32,7 @@ for i in range(count):
 
             k = (1,2,3,4,5,6)
 
-            if n > 6:
+            if n != k:
                 raise ValueError
 
             else:
